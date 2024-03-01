@@ -1,17 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.navbar-nav *{
+.navbar-nav * {
     padding-right: 20px;
 }
-header .navbar-brand span{
+
+header .navbar-brand span {
     font-size: 36px;
     color: white;
 }
 header .navbar-brand i {
     color: green;
     font-size: 48px;
+}
+.myCarousel {
+    position: relative;
+}
+.nav-item .nav-link {
+    color: white;
+}
+.carousel-item img {
+    height: 100vh;
+    min-width: 500px;
+    object-fit: cover;
 }
